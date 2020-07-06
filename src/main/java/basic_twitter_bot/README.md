@@ -2,7 +2,7 @@
 Project "Watch for new TIL facts" from [beginner-projects by Jorge Gonzales](https://github.com/jorgegonzalez/beginner-projects)
 
 # Important 
-In order to run MainApp, you need to obtain your [access tokens for twitter API](https://developer.twitter.com/). Once you do that, fill in //TODO fields in src/main/resources/twitter4j.properties.
+In order to run MainApp, you need to obtain your [access tokens for twitter API](https://developer.twitter.com/). Once you do that, fill in //TODO fields in src/main/java/basic_twitter_bot/resources/twitter4j.properties.
 <br>Other solution is to run NoTwitterMain. In that case, no tweets are posted, app only retrieve reddit data and print them to the console and to file as well.
 
 # [Project text](https://github.com/jorgegonzalez/beginner-projects#watch-for-new-til-facts):
