@@ -2,6 +2,9 @@
 Projects from [begginer-projects by Jorge Gonzales](https://github.com/jorgegonzalez/beginner-projects)
 
 
+<b>Info:</b> Maven + Java projects solution.
+
+
 ## include:
 <ul>
   <li>Watch for New TIL Facts (basic_twitter_bot)</li>
