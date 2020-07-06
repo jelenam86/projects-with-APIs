@@ -1,4 +1,4 @@
-# tasks-with-json
+# tasks-with-APIs
 Projects from [beginner-projects by Jorge Gonzales](https://github.com/jorgegonzalez/beginner-projects)
 
 
