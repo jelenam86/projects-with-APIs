@@ -1,5 +1,5 @@
 # tasks-with-json
-Projects from [begginer-projects by Jorge Gonzales](https://github.com/jorgegonzalez/beginner-projects)
+Projects from [beginner-projects by Jorge Gonzales](https://github.com/jorgegonzalez/beginner-projects)
 
 
 <b>Info:</b> Maven + Java projects solution.
