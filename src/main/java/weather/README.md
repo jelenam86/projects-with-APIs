@@ -31,4 +31,10 @@ In [resources folder](resources) is a zipped .json list of cities downloaded fro
 <br>Example of an HTML file without access token for mapbox.com: [example.html](resources/html/example.html). If you supplied your access token, the same output will look like in the image below.
 
 
-![example of output](resources/html/example.png)
+![example of output with map](resources/html/example.png)
+
+
+![example 2](resources/html/example2.png)
+
+
+![example 3](resources/html/example3.png)
