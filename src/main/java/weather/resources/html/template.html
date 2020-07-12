@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>$title</title>
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Karma">
+  		<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  		<link href="styles.css" rel="stylesheet" type="text/css">
+  		<link rel="stylesheet" href="https://unpkg.com/leaflet@1.6.0/dist/leaflet.css" integrity="sha512-xwE/Az9zrjBIphAcBb3F6JVqxf46+CDLwfLMHloNu6KEQCAWi6HcDUbeOfBIptF7tcCzusKFjFw2yuvEpDL9wQ==" crossorigin="" />
+  		<script src="https://unpkg.com/leaflet@1.6.0/dist/leaflet.js" integrity="sha512-gZwIG9x3wUXg2hdXF6+rVkLF/0Vi9U8D2Ntg4Ga5I5BZpVkVxlJWbSQtXPSiUTtC0TjtGOmxa1AJPuV0CPthew==" crossorigin=""></script>
+	</head>
+	</head>
+	<body>
+		<div class="w3-top">
+    		<div class="w3-bar w3-padding" id="bar">
+      			<div class="w3-right w3-hide-small">
+        			<a href="#current_forecast" class="w3-bar-item w3-button">Current Forecast</a>
+        			<a href="#daily_forecast" class="w3-bar-item w3-button">Daily Forecast</a>
+        			<a href="#about" class="w3-bar-item w3-button">About</a>
+      			</div>
+    		</div>
+		</div>
+	<header class="w3-display-container w3-wide" id="home">
+    	<h1 class="w3-xxxlarge">What's the Weather?</h1>
+	</header>
+	<div class="w3-content" id="current_forecast">
+    	<div class="w3-col s4 w3-padding-large w3-hide-small">
+      		<div id="mapid"></div>
+      	</div>
+      	<div class="w3-col s6 w3-padding-large">
+      		<br><br><br>
+      		<h1>Current Forecast</h1>
+      		<div class="w3-large">
+        		<p><b>Current time: </b>$currentDay</p>
+           		<p><b>Weather:</b></p>
+           		<p>$currentWeatherGroup<b><i>$currentWeatherCondition</i></b>, Temperature: <b>$currentTemperature</b></p>
+      			<p>$currentInfo</p>
+      		</div>
+    	</div>
+    	<div class="w3-col s2 w3-padding">
+      		<br><br><br><br><br><br>
+      		<img src="$currentIcon" alt="Current Weather">
+    	</div>
+  	</div>
+  	<div class="w3-container w3-padding">
+    	<h1 class="w3-center">Daily Forecast</h1>
+
+    	<div class="w3-half w3-padding-large" id="daily_forecast">
+      		<div class="w3-col s2 w3-padding">
+        		<br><br><br><img src="$icon0" alt="Weather">
+      		</div>
+      		<div class="w3-col s10 w3-padding">
+        		<p> <h5><span class="w3-text-deep-orange"><b>$day0</b></span></h5>
+          			<br><i><b>Weather:</b></i><br>$group0
+          			<br><i><b>Temperature:</b></i><br>$temperature0
+          			<br>$info0
+        		</p>
+      		</div>
+    	</div>
+    	
+    	<div class="w3-half w3-padding-large">
+      		<div class="w3-col s2 w3-padding">
+        		<br><br><br><img src="$icon1" alt="Weather">
+      		</div>
+      		<div class="w3-col s10 w3-padding">
+        		<p> <h5><span class="w3-text-deep-orange"><b>$day1</b></span></h5>
+          			<br><i><b>Weather:</b></i><br>$group1
+          			<br><i><b>Temperature:</b></i><br>$temperature1
+          			<br>$info1
+        		</p>
+      		</div>
+    	</div>
+    	
+    	<div class="w3-half w3-padding-large">
+      		<div class="w3-col s2 w3-padding">
+        		<br><br><br><img src="$icon2" alt="Weather">
+      		</div>
+      		<div class="w3-col s10 w3-padding">
+        		<p> <h5><span class="w3-text-deep-orange"><b>$day2</b></span></h5>
+          			<br><i><b>Weather:</b></i><br>$group2
+          			<br><i><b>Temperature:</b></i><br>$temperature2
+          			<br>$info2
+        		</p>
+      		</div>
+    	</div>
+    	
+    	<div class="w3-half w3-padding-large">
+      		<div class="w3-col s2 w3-padding">
+        		<br><br><br><img src="$icon3" alt="Weather">
+      		</div>
+      		<div class="w3-col s10 w3-padding">
+        		<p> <h5><span class="w3-text-deep-orange"><b>$day3</b></span></h5>
+          			<br><i><b>Weather:</b></i><br>$group3
+          			<br><i><b>Temperature:</b></i><br>$temperature3
+          			<br>$info3
+        		</p>
+      		</div>
+    	</div>
+    	
+    	<div class="w3-half w3-padding-large">
+      		<div class="w3-col s2 w3-padding">
+        		<br><br><br><img src="$icon4" alt="Weather">
+      		</div>
+      		<div class="w3-col s10 w3-padding">
+        		<p> <h5><span class="w3-text-deep-orange"><b>$day4</b></span></h5>
+          			<br><i><b>Weather:</b></i><br>$group4
+          			<br><i><b>Temperature:</b></i><br>$temperature4
+          			<br>$info4
+        		</p>
+      		</div>
+    	</div>
+    	
+    	<div class="w3-half w3-padding-large">
+      		<div class="w3-col s2 w3-padding">
+        		<br><br><br><img src="$icon5" alt="Weather">
+      		</div>
+      		<div class="w3-col s10 w3-padding">
+        		<p> <h5><span class="w3-text-deep-orange"><b>$day5</b></span></h5>
+          			<br><i><b>Weather:</b></i><br>$group5
+          			<br><i><b>Temperature:</b></i><br>$temperature5
+          			<br>$info5
+        		</p>
+      		</div>
+    	</div>
+    	
+    	<div class="w3-half w3-padding-large">
+      		<div class="w3-col s2 w3-padding">
+        		<br><br><br><img src="$icon6" alt="Weather">
+      		</div>
+      		<div class="w3-col s10 w3-padding">
+        		<p> <h5><span class="w3-text-deep-orange"><b>$day6</b></span></h5>
+          			<br><i><b>Weather:</b></i><br>$group6
+          			<br><i><b>Temperature:</b></i><br>$temperature6
+          			<br>$info6
+        		</p>
+      		</div>
+    	</div>
+    	
+    	<div class="w3-half w3-padding-large">
+      		<div class="w3-col s2 w3-padding">
+        		<br><br><br><img src="$icon7" alt="Weather">
+      		</div>
+      		<div class="w3-col s10 w3-padding">
+        		<p> <h5><span class="w3-text-deep-orange"><b>$day7</b></span></h5>
+          			<br><i><b>Weather:</b></i><br>$group7
+          			<br><i><b>Temperature:</b></i><br>$temperature7
+          			<br>$info7
+        		</p>
+      		</div>
+    	</div>
+    	
+    </div>
+  	<div class="w3-container w3-padding-32 w3-center" id="about">
+    	<h3>About</h3>
+    	<div class="w3-padding-32">
+      		<p class="w3-large">Unit for temperature: $unit</p>
+      		<p class="w3-large">Timezone: $timezone</p>
+    	</div>
+  	</div>
+
+	<footer class="w3-center w3-padding-32">
+    	<a href="#current_forecast"><i class="fa fa-chevron-up"></i></a>
+    	<br>&copy; Jelena Mihajlovic 2020
+ 	</footer>
+    <script type="text/javascript">
+    	var mymap = L.map('mapid').setView([latitude, longitude], 13);
+    	L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token=$accessToken', 
+    			{attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="https://www.mapbox.com/">Mapbox</a>',
+      			maxZoom: 18,
+      			id: 'mapbox/streets-v11',
+      			tileSize: 512,
+      			zoomOffset: -1,
+      			accessToken: 'your.mapbox.access.token'
+    	}).addTo(mymap);
+    	var marker = L.marker([latitude, longitude]).addTo(mymap);
+    	marker.bindPopup("<b>$town</b><br>You are here!").openPopup();
+    </script>
+	</body>
+</html>

@@ -1,0 +1,95 @@
+ID: 4167505, name: Palm Beach, state: FL, country: US, Latitude: 26.71, Longitude: -80.04
+Unit for temperature: CELSIUS
+Timezone: America/New_York
+
+Current time: Sunday, July 12, 2020 at 6:21:26 AM Eastern Daylight Time
+	Weather:
+		Weather group: Clouds, Weather condition: scattered clouds, Temperature: 26.3
+	Sunrise time: 6:34:56 AM, Sunset time: 8:16:21 PM
+	UV index: 12.64, Atmospheric pressure on the sea level: 1013.0 hPa, Humidity: 83.0%
+	Wind speed: 2.6 m/s, Cloudiness: 40.0%, Rain volume: 0.0 mm, Snow volume: 0.0 mm
+
+Daily Forecast:
+
+Sunday, July 12, 2020
+	Weather:
+		Weather group: Rain, Weather condition: heavy intensity rain
+	Temperature:
+		morning: 27.4, day: 32.0, evening: 28.1, night: 28.3
+		minimum: 27.4, maximum: 32.0
+	Sunrise time: 6:34:56 AM, Sunset time: 8:16:21 PM
+	UV index: 12.64, Atmospheric pressure on the sea level: 1014.0 hPa, Humidity: 56.0%
+	Wind speed: 5.13 m/s, Cloudiness: 58.0%, Rain volume: 13.94 mm, Snow volume: 0.0 mm
+
+Monday, July 13, 2020
+	Weather:
+		Weather group: Rain, Weather condition: moderate rain
+	Temperature:
+		morning: 28.1, day: 32.7, evening: 31.5, night: 28.2
+		minimum: 28.1, maximum: 32.7
+	Sunrise time: 6:35:24 AM, Sunset time: 8:16:07 PM
+	UV index: 12.04, Atmospheric pressure on the sea level: 1015.0 hPa, Humidity: 54.0%
+	Wind speed: 3.27 m/s, Cloudiness: 53.0%, Rain volume: 5.62 mm, Snow volume: 0.0 mm
+
+Tuesday, July 14, 2020
+	Weather:
+		Weather group: Rain, Weather condition: moderate rain
+	Temperature:
+		morning: 27.6, day: 32.3, evening: 30.8, night: 29.0
+		minimum: 27.6, maximum: 32.3
+	Sunrise time: 6:35:53 AM, Sunset time: 8:15:51 PM
+	UV index: 12.88, Atmospheric pressure on the sea level: 1017.0 hPa, Humidity: 55.0%
+	Wind speed: 3.2 m/s, Cloudiness: 98.0%, Rain volume: 5.82 mm, Snow volume: 0.0 mm
+
+Wednesday, July 15, 2020
+	Weather:
+		Weather group: Rain, Weather condition: light rain
+	Temperature:
+		morning: 28.1, day: 32.1, evening: 30.0, night: 29.1
+		minimum: 28.1, maximum: 32.1
+	Sunrise time: 6:36:22 AM, Sunset time: 8:15:35 PM
+	UV index: 12.55, Atmospheric pressure on the sea level: 1018.0 hPa, Humidity: 54.0%
+	Wind speed: 3.71 m/s, Cloudiness: 29.0%, Rain volume: 2.46 mm, Snow volume: 0.0 mm
+
+Thursday, July 16, 2020
+	Weather:
+		Weather group: Rain, Weather condition: light rain
+	Temperature:
+		morning: 28.9, day: 31.3, evening: 29.3, night: 28.4
+		minimum: 28.4, maximum: 31.3
+	Sunrise time: 6:36:51 AM, Sunset time: 8:15:16 PM
+	UV index: 12.07, Atmospheric pressure on the sea level: 1018.0 hPa, Humidity: 56.0%
+	Wind speed: 4.77 m/s, Cloudiness: 3.0%, Rain volume: 0.45 mm, Snow volume: 0.0 mm
+
+Friday, July 17, 2020
+	Weather:
+		Weather group: Clear, Weather condition: clear sky
+	Temperature:
+		morning: 28.6, day: 30.8, evening: 29.3, night: 28.5
+		minimum: 28.5, maximum: 30.8
+	Sunrise time: 6:37:21 AM, Sunset time: 8:14:57 PM
+	UV index: 11.98, Atmospheric pressure on the sea level: 1017.0 hPa, Humidity: 59.0%
+	Wind speed: 4.81 m/s, Cloudiness: 1.0%, Rain volume: 0.0 mm, Snow volume: 0.0 mm
+
+Saturday, July 18, 2020
+	Weather:
+		Weather group: Rain, Weather condition: moderate rain
+	Temperature:
+		morning: 28.5, day: 27.9, evening: 29.0, night: 28.2
+		minimum: 27.9, maximum: 30.3
+	Sunrise time: 6:37:51 AM, Sunset time: 8:14:36 PM
+	UV index: 12.52, Atmospheric pressure on the sea level: 1016.0 hPa, Humidity: 67.0%
+	Wind speed: 4.54 m/s, Cloudiness: 95.0%, Rain volume: 5.96 mm, Snow volume: 0.0 mm
+
+Sunday, July 19, 2020
+	Weather:
+		Weather group: Rain, Weather condition: moderate rain
+	Temperature:
+		morning: 28.5, day: 30.4, evening: 28.9, night: 28.9
+		minimum: 28.5, maximum: 30.4
+	Sunrise time: 6:38:21 AM, Sunset time: 8:14:14 PM
+	UV index: 11.8, Atmospheric pressure on the sea level: 1016.0 hPa, Humidity: 64.0%
+	Wind speed: 4.99 m/s, Cloudiness: 55.0%, Rain volume: 6.86 mm, Snow volume: 0.0 mm
+
+
+

@@ -1,0 +1,35 @@
+body, h1, h2, h3, h4, h5, h6 {
+	font-family: "Karma", sans-serif;
+	background-color: #E6BE8A;
+}
+
+img {
+	width: 100%;
+}
+
+.w3-row-padding w3-padding-16 w3-center {
+	padding-left: 16px;
+}
+
+.w3-bar-block .w3-bar-item {
+	padding: 20px;
+}
+
+#mapid {
+	height: 500px;
+}
+
+#bar {
+	letter-spacing: 4px;
+}
+
+#current_forecast {
+	max-width: 90%;
+}
+
+#home {
+	max-width: 1600px;
+	min-width: 500px;
+	padding-left: 30px;
+	padding-top: 20px;
+}
